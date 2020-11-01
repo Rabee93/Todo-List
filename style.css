@@ -23,7 +23,8 @@ form{
   align-items: center;
 }
 
-from input, form button{
+form input, 
+form button{
   padding: 0.5rem;
   font-size: 2rem;
   border: none;
@@ -40,5 +41,5 @@ form button{
 form button:hover{
   background: #d88771;
   color: white;
-  
+
 }
