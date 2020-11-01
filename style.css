@@ -23,7 +23,7 @@ form{
   align-items: center;
 }
 
-form input, 
+form input,
 form button{
   padding: 0.5rem;
   font-size: 2rem;
@@ -42,4 +42,10 @@ form button:hover{
   background: #d88771;
   color: white;
 
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
