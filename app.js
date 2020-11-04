@@ -39,7 +39,6 @@ function deleteCheck(e) {
     const todo = item.parentElement;
     todo.classList.add("fall");
     todo.addEventListener('transitionend', function(){
-console.log("hi")
       todo.remove();
     });
   }
@@ -62,6 +61,14 @@ todos.forEach(function(todo){
     }else {
       todo.style.display = "none";
     }
+    break;
+    case "uncompleted":
+    if(!todo.classList.contains('completed')){
+      todo.style.display = 'flex';
+    }else {
+      todo.style.display = "none";
   }
+  break;
+}
 })
 }
