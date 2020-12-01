@@ -3,6 +3,7 @@
 
 ### Download and run the app:
 - clone the respository.
-- open index.html in the browser.
-- add elements to the website.
+- open the terminal and type cd to blog.
+- run npm start.
+
 
